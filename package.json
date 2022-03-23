@@ -1,0 +1,16 @@
+{
+  "name": "workspacess",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"Highly Unexpected for this to log\" && npm run build --workspaces --if-present",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "a",
+    "b"
+  ]
+}
